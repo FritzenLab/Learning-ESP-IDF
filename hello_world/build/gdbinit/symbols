@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/esp/projects/hello_world/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/esp/projects/hello_world/build/hello_world.elf
