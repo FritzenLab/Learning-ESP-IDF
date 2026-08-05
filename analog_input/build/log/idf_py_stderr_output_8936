@@ -1,0 +1,12 @@
+Command: ninja flash
+
+A fatal error occurred: Could not open COM19, the port is busy or doesn't exist.
+(could not open port 'COM19': PermissionError(13, 'Acesso negado.', None, 5))
+
+CMake Error at C:/esp/v6.0.2/esp-idf/components/esptool_py/run_serial_tool.cmake:67 (message):
+  
+  C:/Espressif/tools/python_env/idf6.0_py3.10_env/Scripts/python.exe;-m;esptool;--chip;esp32c6
+  failed.
+
+
+

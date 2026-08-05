@@ -1,0 +1,19 @@
+Command: ninja all
+fatal: bad config line 2 in file C:/esp/v6.0.2/esp-idf/.git/modules/components/bootloader/subproject/components/micro-ecc/micro-ecc/config
+NOTE: Kconfig parser version: 1
+NOTE: Kconfig defaults policy: use sdkconfig
+NOTE: Status: Finished successfully
+Traceback (most recent call last):
+  File "C:\esp\v6.0.2\esp-idf\components\esp_rom\gen_gdbinit.py", line 72, in <module>
+    gdbinit_lines = generate_gdbinit_rom_add_symbols(target)
+  File "C:\esp\v6.0.2\esp-idf\components\esp_rom\gen_gdbinit.py", line 31, in generate_gdbinit_rom_add_symbols
+    raise OSError(
+OSError: ESP_ROM_ELF_DIR environment variable is not defined. Please try to run IDF "install" and "export" scripts.
+CMake Warning at C:/esp/v6.0.2/esp-idf/tools/cmake/gdbinit.cmake:52 (message):
+  Error while generating esp_rom gdbinit
+Call Stack (most recent call first):
+  C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:357 (__generate_gdbinit)
+  C:/esp/v6.0.2/esp-idf/tools/cmake/project.cmake:1004 (__project_info)
+  CMakeLists.txt:8 (project)
+
+

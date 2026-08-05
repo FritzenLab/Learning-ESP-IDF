@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/CMakeFiles/bootloader
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/CMakeFiles/bootloader.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/CMakeFiles/bootloader-complete.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

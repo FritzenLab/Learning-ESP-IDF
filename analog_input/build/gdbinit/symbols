@@ -1,0 +1,9 @@
+
+
+# Load bootloader symbols
+set confirm off
+    add-symbol-file C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/bootloader/bootloader.elf
+set confirm on
+
+# Load application symbols
+file C:/Users/Clovisf/Documents/GitHub/Learning-ESP-IDF/analog_input/build/potentiometer-to-pwm.elf
