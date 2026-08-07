@@ -1,11 +1,15 @@
-"Libraries"/packages (component registry) for ESP32:
+1) "Libraries"/packages (component registry) for ESP32:
 
 https://components.espressif.com/
 
-If something goes wrong with compilation, you can try do a:
+Components names will go (have to be added) into the "idf_component.yml" file 
+inside the "mail" folder of the project (alongside "main.c")
+---
+2) If something goes wrong with compilation, you can try do a:
 
 idf.py fullclean
-
-To open monitor terminal (similar to Arduino serial monitor,but with ESP_LOGI()):
+---
+3) To open monitor terminal (similar to Arduino serial monitor,but with ESP_LOGI()):
 
 ESP-IDF: Monitor Device
+---
