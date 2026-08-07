@@ -1,0 +1,11 @@
+"Libraries"/packages (component registry) for ESP32:
+
+https://components.espressif.com/
+
+If something goes wrong with compilation, you can try do a:
+
+idf.py fullclean
+
+To open monitor terminal (similar to Arduino serial monitor,but with ESP_LOGI()):
+
+ESP-IDF: Monitor Device
