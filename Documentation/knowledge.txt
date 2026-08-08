@@ -9,7 +9,11 @@ inside the "mail" folder of the project (alongside "main.c")
 
 idf.py fullclean
 ---
-3) To open monitor terminal (similar to Arduino serial monitor,but with ESP_LOGI()):
+3) To actually compile the project:
+
+idf.py build
+---
+4) To open monitor terminal (similar to Arduino serial monitor,but with ESP_LOGI()):
 
 ESP-IDF: Monitor Device
 ---
