@@ -5,9 +5,9 @@
 #include "esp_log.h"
 
 
-#define LED_GPIO        GPIO_NUM_1
+#define LED_GPIO        GPIO_NUM_0
 
-#define LED_PERIOD_MS   100
+#define LED_PERIOD_MS   200
 
 static const char *TAG = "APP";
 
