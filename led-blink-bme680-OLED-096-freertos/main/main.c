@@ -83,9 +83,9 @@ static void bme680_display_task(void *arg)
 
             if (bme680_get_results_float(&sensor, &values) == ESP_OK) {
                 char line1[16], line2[16], line3[16];
-                snprintf(line1, sizeof(line1), "T:%.1fC", values.temperature);
-                snprintf(line2, sizeof(line2), "H:%.1f%%", values.humidity);
-                snprintf(line3, sizeof(line3), "P:%.0fh", values.pressure);
+                snprintf(line1, sizeof(line1), "%.1f C", values.temperature);
+                snprintf(line2, sizeof(line2), "%.1f %%", values.humidity);
+                snprintf(line3, sizeof(line3), "%.0fhPa", values.pressure);
 
                 ESP_LOGI(TEMP, "Temperature: %.1fC", values.temperature);
                 ESP_LOGI(HUM, "Humidity: %.1f%%", values.humidity);
@@ -100,11 +100,11 @@ static void bme680_display_task(void *arg)
                 ESP_LOGW(TAG, "BME680 read failed");
             }
         }
-        vTaskDelay(pdMS_TO_TICKS(3000)); // hold the readings on screen for 3s
+        vTaskDelay(pdMS_TO_TICKS(4000)); // hold the readings on screen for 3s
 
         ssd1306_mini_draw_bitmap(&oled, fritzenlab_logo_128x64);
         ssd1306_mini_flush(&oled);
-        vTaskDelay(pdMS_TO_TICKS(3000)); // then hold the logo for 3s
+        vTaskDelay(pdMS_TO_TICKS(2000)); // then hold the logo for 3s
     }
     
 }

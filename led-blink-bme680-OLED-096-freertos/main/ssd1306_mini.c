@@ -114,6 +114,7 @@ static const uint8_t *glyph_for(char c)
     static const uint8_t G_P[8] = {0x7C,0x66,0x66,0x7C,0x60,0x60,0x60,0x00};
     static const uint8_t G_T[8] = {0x7E,0x18,0x18,0x18,0x18,0x18,0x18,0x00};
     static const uint8_t G_h[8] = {0x60,0x60,0x7C,0x66,0x66,0x66,0x66,0x00};
+    static const uint8_t G_a[8] = {0x00,0x00,0x3C,0x06,0x3E,0x66,0x3E,0x00};
     static const uint8_t G_DASH[8] = {0x00,0x00,0x00,0x7E,0x00,0x00,0x00,0x00};
     static const uint8_t G_SPACE[8] = {0,0,0,0,0,0,0,0};
 
@@ -124,6 +125,7 @@ static const uint8_t *glyph_for(char c)
         case '9': return G_9;  case '.': return G_DOT; case ':': return G_COLON;
         case '%': return G_PCT; case 'C': return G_C;  case 'H': return G_H;
         case 'P': return G_P;  case 'T': return G_T;  case 'h': return G_h;
+        case 'a': return G_a;
         case '-': return G_DASH;
         default:  return G_SPACE;
     }
